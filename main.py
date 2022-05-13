@@ -20,7 +20,7 @@ def game_scene():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
-            if player.laps == 2 or computer1.laps == 6 or computer2.laps == 6 or computer3.laps == 6: ## MAX LAPS IS 6
+            if player.laps == 6 or computer1.laps == 6 or computer2.laps == 6 or computer3.laps == 6: ## MAX LAPS IS 6
                 player.laps = 0
                 player.check_points = 0
                 computer1.path = 1
